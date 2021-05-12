@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+//Importem components JSX
+import React from 'react';
+import Productes from './Productos';
+import Ticket from './Ticket';
+
+
+//Importem CSS
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'font-awesome/css/font-awesome.min.css';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="contenedor">
+      <h1 className="textocentro">Fruiteria</h1>
+      
+      
+
+
+
     </div>
   );
 }
